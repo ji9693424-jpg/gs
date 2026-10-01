@@ -1,0 +1,220 @@
+#gs_wrap {
+    width: 958px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.member {
+    width: 226px;
+}
+
+.youtube {
+    width: 226px;
+}
+
+.service {
+    width: 466px;
+}
+
+.point {
+    width: 226px;
+}
+
+.notice {
+    width: 712px;
+}
+
+/* title */
+.title {
+    height: 44px;
+}
+
+.title h2 {
+    font-size: 22px;
+}
+
+.title h2 span {
+    color: #216fed;
+}
+
+/* member */
+.member_content {
+    height: 275px;
+    background: url("../img/sweet.jpg") no-repeat #f0f0f0;
+    text-align: center;
+    border: 3px solid #e0e0e0;
+    box-sizing: border-box;
+}
+
+.member_content h3 {
+    padding-top: 215px;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+}
+
+.member_content p {
+    font-size: 14px;
+    margin-top: 3px;
+    background: url(../img/won.jpg) no-repeat 35% 0;
+}
+
+/* youtube */
+.youtube_content {
+    height: 275px;
+    background: url("../img/youtube_icon.jpg") no-repeat 21px 34px;
+    background-color: #f0f0f0;
+    border: 3px solid #e0e0e0;
+    box-sizing: border-box;
+}
+
+.youtube_content h3 {
+    margin-left: 70px;
+    padding-top: 32px;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+}
+
+.youtube_content p {
+    width: 80%;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.youtube_video {
+    background-color: #216fed;
+    width: 185px;
+    height: 122px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.service_content {
+    height: 275px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid #e0e0e0;
+    box-sizing: border-box;
+}
+
+.service_content > div {
+    display: flex;
+    width: 50%;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+.icon {
+    width: 56px;
+    height: 50px;
+    margin-top: 30px;
+    text-indent: -9999px;
+}
+
+.chk {
+    background: url("../img/check.jpg") no-repeat 0 0;
+}
+
+.consult {
+    background: url("../img/consult.jpg") no-repeat 0 0;
+}
+
+.card {
+    background: url("../img/membership.jpg") no-repeat 0 0;
+}
+
+.recruit {
+    background: url("../img/recurt.jpg") no-repeat 0 0;
+}
+
+.description {
+}
+
+.description strong {
+    display: block;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.description span {
+    display: block;
+    font-size: 13px;
+    color: #666;
+}
+
+.service_cont01,
+.service_cont03 {
+    border-right: 3px solid #e0e0e0;
+}
+
+.service_cont01,
+.service_cont02 {
+    border-bottom: 3px solid #e0e0e0;
+}
+
+/* point */
+.point {
+    height: 110px;
+    background: url("../img/gs_point.jpg") no-repeat 24px 24px;
+    background-color: #00a6a6;
+    text-align: center;
+    border: 3px solid #e0e0e0;
+    box-sizing: border-box;
+}
+
+.point h2 {
+    padding-top: 22px;
+    margin-left: 55px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.point h2 span {
+    font-weight: 300;
+    color: #fff;
+}
+
+.point p {
+    margin-left: 25px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.notice {
+    border: 3px solid #e0e0e0;
+    box-sizing: border-box;
+}
+
+.notice ul {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.notice ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.notice ul li span.note {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.notice ul li span.more {
+    background: url("../img/plus.jpg") no-repeat;
+    padding-left: 15px;
+}
+.notice ul li span.date {
+    font-size: 14px;
+    font-weight: 700;
+}

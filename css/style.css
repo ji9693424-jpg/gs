@@ -1,0 +1,172 @@
+.wrap {
+    width: 958px;
+    height: 449px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.con1 {
+    display: flex;
+}
+
+.a1,
+.a2,
+.a3 {
+    display: flex;
+    flex-direction: column; /* 세로로 배치 */
+    align-items: center;
+}
+
+.a1,
+.a2 {
+    margin-right: 20px;
+}
+
+.con1 {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.a1-1 {
+    width: 226px;
+    height: 44px;
+    background-color: aqua;
+}
+
+.a1-2 {
+    width: 226px;
+    height: 200px;
+    background-color: aquamarine;
+}
+.a1-3 {
+    width: 226px;
+    height: 75px;
+    background-color: bisque;
+    text-align: center;
+}
+
+.a2-1 {
+    width: 226px;
+    height: 44px;
+    background-color: thistle;
+}
+
+.a2-2 {
+    width: 226px;
+    height: 275px;
+    background-color: rgb(119, 34, 119);
+    text-align: center;
+    justify-content: center;
+}
+
+.a2-2 span {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.a2-2 p {
+    text-align: left;
+}
+
+.youtube_video {
+    width: 185px;
+    height: 122px;
+    background-color: aqua;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+}
+
+.a3 {
+    border: 1px solid rgb(116, 111, 111);
+}
+
+.a3-1 {
+    width: 464px;
+    height: 44px;
+    background-color: tomato;
+}
+.a3-2 {
+    width: 464px;
+    height: 275px;
+    background-color: rgb(129, 69, 58);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.a3-2-1 {
+    width: 201px;
+    height: 57px;
+    background-color: rgb(129, 99, 197);
+    position: relative;
+    top: 50px;
+    right: 30px;
+}
+
+.a3-2-2 {
+    width: 201px;
+    height: 57px;
+    background-color: rgb(43, 29, 75);
+    position: relative;
+    top: 100px;
+    right: 30px;
+}
+
+.a3-2-3 {
+    width: 201px;
+    height: 57px;
+    background-color: rgb(84, 54, 155);
+    position: relative;
+    top: 50px;
+}
+
+.a3-2-4 {
+    width: 201px;
+    height: 57px;
+    background-color: rgb(68, 61, 85);
+    position: relative;
+    top: 100px;
+}
+
+.con2 {
+    display: flex;
+    justify-content: center;
+}
+
+.b1 {
+    width: 226px;
+    height: 110px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(116, 111, 111);
+    background-color: rgb(6, 131, 125);
+}
+
+.b1 p {
+    margin-left: 8px;
+    margin-bottom: 7px;
+}
+
+.b2 {
+    width: 712px;
+    height: 108px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid rgb(116, 111, 111);
+    background-color: rgb(247, 248, 248);
+}
+
+.b2-2 {
+    text-align: right;
+}
+
+.a3-2-1,
+.a3-2-2,
+.a3-2-3,
+.a3-2-4 {
+    display: flex;
+}
